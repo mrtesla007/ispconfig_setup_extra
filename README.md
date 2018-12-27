@@ -28,5 +28,5 @@ sed -i "s%değişken1%$değişken2%" /yol/dosya
 ## sed kullanmadan bir dosya en sonuna yazi ekleme
 
 echo "eklenecek kelime" >> /yol/dosya
-örnek
+ornek olarak
 echo "zend_extension=/usr/local/ioncube/ioncube_loader_lin_7.3.so" >> /etc/php.ini
