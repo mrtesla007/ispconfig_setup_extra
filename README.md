@@ -24,3 +24,9 @@ sed -i "s/\/home\/user/yeni kelime/" /yol/dosya
 ## Veya seperator değiştirilebilir. , % | gibi. Genellikle değişken içinde ters slash oluşturulamayacağı için bu yöntem kullanılır.
 
 sed -i "s%değişken1%$değişken2%" /yol/dosya
+
+## sed kullanmadan bir dosya en sonuna yazi ekleme
+
+echo "eklenecek kelime" >> /yol/dosya
+örnek
+echo "zend_extension=/usr/local/ioncube/ioncube_loader_lin_7.3.so" >> /etc/php.ini
