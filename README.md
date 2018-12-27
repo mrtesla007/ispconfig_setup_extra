@@ -25,7 +25,7 @@ sed -i "s/\/home\/user/yeni kelime/" /yol/dosya
 
 sed -i "s%değişken1%$değişken2%" /yol/dosya
 
-### sed kullanmadan bir dosya en sonuna yazi ekleme
+### sed kullanmadan bir dosyanin en sonuna yazi ekleme
 
 echo "eklenecek kelime" >> /yol/dosya
 #### ornek olarak
