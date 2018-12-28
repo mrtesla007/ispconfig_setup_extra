@@ -1,14 +1,14 @@
 #https://www.howtoforge.com/how-to-use-multiple-php-versions-php-fpm-and-fastcgi-with-ispconfig-3-centos-6.3
-#http://php.net/downloads.php#v7.3.0
+#http://php.net/downloads.php#v7.3.1
 #https://downloads.php.net/~cmb/
 
-#Download and extract PHP 7.3.0:
+#Download and extract PHP 7.3.1:
 
-mkdir /opt/php-7.3.0
+mkdir /opt/php-7.3.1
 mkdir /usr/local/src/php7-build
 cd /usr/local/src/php7-build
-wget http://tr1.php.net/get/php-7.3.0.tar.bz2/from/this/mirror
-tar jxf php-7.3.0.tar.bz2
+wget https://downloads.php.net/~cmb/php-7.3.1RC1.tar.bz2
+tar jxf php-7.3.1RC1.tar.bz2
 
 
 
