@@ -7,8 +7,8 @@
 mkdir /opt/php-7.3.0
 mkdir /usr/local/src/php7-build
 cd /usr/local/src/php7-build
-wget https://downloads.php.net/~cmb/php-7.3.0RC6.tar.bz2
-tar jxf php-7.3.0RC6.tar.bz2
+wget http://tr1.php.net/get/php-7.3.0.tar.bz2/from/this/mirror
+tar jxf php-7.3.0.tar.bz2
 
 
 
