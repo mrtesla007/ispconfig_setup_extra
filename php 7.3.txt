@@ -1,5 +1,6 @@
 #https://www.howtoforge.com/how-to-use-multiple-php-versions-php-fpm-and-fastcgi-with-ispconfig-3-centos-6.3
 #http://php.net/downloads.php#v7.3.0
+#https://downloads.php.net/~cmb/
 
 #Download and extract PHP 7.3.0:
 
