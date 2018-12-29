@@ -23,7 +23,7 @@ cd openssl-1.0.1t
 ./config shared --prefix=/opt/openssl
 make -j $(nproc) && make install
 ln -s /opt/openssl/lib /opt/openssl/lib/x86_64-linux-gnu
-wget -O /opt/openssl/ssl/cert.pem "https://raw.githubusercontent.com/b1glord/ispconfig_setup_extra/php-5.2/master/cacert.pem"
+wget -O /opt/openssl/ssl/cert.pem "https://raw.githubusercontent.com/b1glord/ispconfig_setup_extra/master/php-5.2/cacert.pem"
 
 
 yum install -y libxml2-devel libXpm-devel gmp-devel libicu-devel t1lib-devel aspell-devel openssl-devel bzip2-devel libcurl-devel libjpeg-devel libvpx-devel libpng-devel freetype-devel readline-devel libtidy-devel libxslt-devel libmcrypt-devel pcre-devel curl-devel mysql-devel ncurses-devel gettext-devel net-snmp-devel libevent-devel libtool-ltdl-devel libc-client-devel postgresql-devel
