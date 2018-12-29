@@ -1,5 +1,9 @@
 Bir terminal açın ve şunu yazın:
-tar xvjf dosyaadı.tar.bz2
+tar -xvjf dosyaadı.tar.bz2
+tar -xvzf dosyaadı.tar.bz2
+
+tar -jxf php-5.2.17.tar.bz2
+
 Bu onu geçerli dizine kaldırır. Normalde (zamanın% 99'u) kendi alt dizinini yaratır, böylece endişelenmenize gerek kalmaz.
 Sadece biliyorsun ki:
 tar - Bant Okuyucu
