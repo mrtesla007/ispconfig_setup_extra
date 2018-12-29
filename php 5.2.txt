@@ -6,16 +6,17 @@
 mkdir /opt/php-5.2.17
 mkdir /usr/local/src/php5-build
 cd /usr/local/src/php5-build
-wget http://museum.php.net/php5/php-5.2.17.tar.bz2
-tar jxf php-5.2.17.tar.bz2
+wget http://museum.php.net/php5/php-5.2.17.tar.gz
+tar -xvzf php-5.2.17.tar.gz
 
 
 #The OpenSSL version in Centos 7 is too new for PHP 5.2.17, 
 #so we'll have to compile an older version in /opt/openssl to use it with PHP 5.6.
 
+mkdir /opt/openssl
 cd /tmp
 wget "https://www.openssl.org/source/old/1.0.1/openssl-1.0.1t.tar.gz"
-tar jxf openssl-1.0.1t.tar.gz 
+tar -xvzf openssl-1.0.1t.tar.gz 
 cd openssl-1.0.1t
 ./config shared --prefix=/opt/openssl
 make -j $(nproc) && make install
