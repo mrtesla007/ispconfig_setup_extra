@@ -1,7 +1,7 @@
   echo -n "Installing Ioncube Loader (PHP 7)... "
   mkdir /usr/local/ioncube
   wget http://downloads3.ioncube.com/loader_downloads/ioncube_loaders_lin_x86-64.tar.gz
-  tar xzvf ioncube_loaders_lin_x86-64.tar.gz
+  tar -xzvf ioncube_loaders_lin_x86-64.tar.gz
   cd ioncube
   cp -p ioncube_loader_lin_7.3.so /usr/local/ioncube
   cp -p ioncube_loader_lin_7.3_ts.so /usr/local/ioncube
