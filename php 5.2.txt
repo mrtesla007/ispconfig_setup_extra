@@ -2,6 +2,7 @@
 #http://www.php.net/releases/#5.2.17
 #Temiz kurulumda yuklu degilse gerekli
 yum groupinstall "Development Tools"
+yum install -y wget
 
 #Download and extract PHP 5.2.17:
 
