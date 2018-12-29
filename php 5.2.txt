@@ -1,5 +1,7 @@
 #https://www.howtoforge.com/how-to-use-multiple-php-versions-php-fpm-and-fastcgi-with-ispconfig-3-centos-6.3
 #http://www.php.net/releases/#5.2.17
+#Temiz kurulumda yuklu degilse gerekli
+yum groupinstall "Development Tools"
 
 #Download and extract PHP 5.2.17:
 
