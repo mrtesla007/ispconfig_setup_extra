@@ -1,6 +1,9 @@
 #https://www.howtoforge.com/how-to-use-multiple-php-versions-php-fpm-and-fastcgi-with-ispconfig-3-centos-6.3
 #http://php.net/downloads.php#v7.3.1
 #https://downloads.php.net/~cmb/
+#Temiz kurulumda yuklu degilse gerekli
+yum groupinstall "Development Tools"
+yum install -y wget unzip
 
 #Download and extract PHP 7.3.1:
 
