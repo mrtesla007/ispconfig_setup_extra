@@ -37,7 +37,48 @@ patch -p0 < libxml29_compat.patch
 
 #./buildconf
 
-./configure --prefix=/opt/php52 --with-pdo-pgsql --with-zlib-dir --with-freetype-dir --enable-mbstring --with-libxml-dir=/usr --enable-soap --enable-calendar --with-curl --with-mcrypt --with-bz2 --with-zlib --with-gd --with-pgsql --disable-rpath --enable-inline-optimization --with-zlib --enable-sockets --enable-sysvsem --enable-sysvshm --enable-pcntl --enable-mbregex --with-mhash --enable-zip --with-pcre-regex --with-mysql --with-pdo-mysql --with-mysqli --with-jpeg-dir=/usr --with-png-dir=/usr --enable-gd-native-ttf --with-openssl --with-fpm-user=apache --with-fpm-group=apache --with-libdir=lib64 --enable-ftp --with-imap --with-imap-ssl --with-kerberos --with-gettext --enable-fpm
+./configure \
+--prefix=/opt/php-5.2.17 \
+--with-pdo-pgsql \
+--with-zlib-dir \
+--with-freetype-dir \
+--enable-mbstring \
+--with-libxml-dir=/usr \
+--enable-soap \
+--enable-calendar \
+--with-curl \
+--with-mcrypt \
+--with-zlib \
+--with-gd \
+--with-pgsql \
+--disable-rpath \
+--enable-inline-optimization \
+--with-bz2 \
+--with-zlib \
+--enable-sockets \
+--enable-sysvsem \
+--enable-sysvshm \
+--enable-pcntl \
+--enable-mbregex \
+--with-mhash \
+--enable-zip \
+--with-pcre-regex \
+--with-mysql \
+--with-pdo-mysql \
+--with-mysqli \
+--with-jpeg-dir=/usr \
+--with-png-dir=/usr \
+--enable-gd-native-ttf \
+--with-openssl \
+--with-fpm-user=apache \
+--with-fpm-group=apache \
+--with-libdir=lib64 \
+--enable-ftp \
+--with-imap \
+--with-imap-ssl \
+--with-kerberos \
+--with-gettext \
+--enable-fpm
 
 make
 make install
