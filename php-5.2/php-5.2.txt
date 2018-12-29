@@ -23,7 +23,7 @@ cd openssl-1.0.1t
 ./config shared --prefix=/opt/openssl
 make -j $(nproc) && make install
 ln -s /opt/openssl/lib /opt/openssl/lib/x86_64-linux-gnu
-wget -O /opt/openssl/ssl/cert.pem "https://raw.githubusercontent.com/b1glord/ispconfig_setup_extra/master/cacert.pem"
+wget -O /opt/openssl/ssl/cert.pem "https://raw.githubusercontent.com/b1glord/ispconfig_setup_extra/php-5.2/master/cacert.pem"
 
 
 yum install -y libxml2-devel libXpm-devel gmp-devel libicu-devel t1lib-devel aspell-devel openssl-devel bzip2-devel libcurl-devel libjpeg-devel libvpx-devel libpng-devel freetype-devel readline-devel libtidy-devel libxslt-devel libmcrypt-devel pcre-devel curl-devel mysql-devel ncurses-devel gettext-devel net-snmp-devel libevent-devel libtool-ltdl-devel libc-client-devel postgresql-devel
@@ -31,7 +31,7 @@ yum install -y libxml2-devel libXpm-devel gmp-devel libicu-devel t1lib-devel asp
 
 cd /usr/local/src/php5-build/php-5.2.17
 
-wget https://raw.githubusercontent.com/b1glord/ispconfig_setup_extra/master/libxml29_compat.patch
+wget https://raw.githubusercontent.com/b1glord/ispconfig_setup_extra/php-5.2/master/libxml29_compat.patch
 patch -p0 < libxml29_compat.patch 
 
 
