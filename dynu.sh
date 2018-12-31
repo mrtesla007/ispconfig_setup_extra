@@ -1,3 +1,5 @@
+#https://www.dynu.com/DynamicDNS/IPUpdateClient/Linux
+
 #Red Hat Enterprise Linux 7
 rpm -ivh https://www.dynu.com/support/downloadfile/30 
 yum install -y nano
