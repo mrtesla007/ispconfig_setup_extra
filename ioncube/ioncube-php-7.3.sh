@@ -4,7 +4,7 @@
   wget http://downloads3.ioncube.com/loader_downloads/ioncube_loaders_lin_x86-64.tar.gz
   tar -xzvf ioncube_loaders_lin_x86-64.tar.gz
   # ioncube klasorunu /tmp den usr/local klasorune tasiyoruz 
-  mv /tmp/ioncube -t  /usr/local
+  mv -f /tmp/ioncube -t  /usr/local
  
   #Php.ini dosyamıza asagidaki kodlari ekliyoruz
 echo "
