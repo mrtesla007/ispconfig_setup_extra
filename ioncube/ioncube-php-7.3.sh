@@ -7,9 +7,9 @@
   mv -f /tmp/ioncube -t  /usr/local
  
   #Php.ini dosyamıza asagidaki kodlari ekliyoruz
-echo "
-echo "[ioncube]" >> /etc/php.ini
-echo "zend_extension=/usr/local/ioncube/ioncube_loader_lin_7.3.so" >> /etc/php.ini
-echo "zend_extension_ts=/usr/local/ioncube/ioncube_loader_lin_7.3_ts.so" >> /etc/php.ini
+echo " "
+echo "[ioncube]" >> /etc/php.ini"
+echo "zend_extension=/usr/local/ioncube/ioncube_loader_lin_7.3.so" >> /etc/php.ini"
+echo "zend_extension_ts=/usr/local/ioncube/ioncube_loader_lin_7.3_ts.so" >> /etc/php.ini"
   service php-fpm restart
   echo -e "[${green}DONE${NC}]\n"
