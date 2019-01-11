@@ -1,7 +1,6 @@
 #https://www.howtoforge.com/tutorial/how-to-install-wordpress-with-hhvm-and-nginx-on-centos-7/#step-configure-hhvm-and-nginx
 #http://mirrors.linuxeye.com/hhvm-repo/7/x86_64/
 
-
 yum -y install git
 yum -y install cpp gcc-c++ cmake psmisc {binutils,boost,jemalloc,numactl}-devel \
 {ImageMagick,sqlite,tbb,bzip2,openldap,readline,elfutils-libelf,gmp,lz4,pcre}-devel \
@@ -10,12 +9,8 @@ lib{xslt,event,yaml,vpx,png,zip,icu,mcrypt,memcached,cap,dwarf}-devel \
 glog-devel oniguruma-devel ocaml gperf enca libjpeg-turbo-devel openssl-devel \
 mariadb mariadb-server libc-client make
 
-
-
-
 rpm -Uvh http://mirrors.linuxeye.com/hhvm-repo/7/x86_64/hhvm-3.15.3-1.el7.centos.x86_64.rpm
 ln -s /usr/local/bin/hhvm /bin/hhvm
-
 
 hhvm --version
 
