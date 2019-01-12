@@ -7,7 +7,8 @@
   mv -f /tmp/ioncube -t  /usr/local
  
   #Php.ini dosyamıza asagidaki kodlari ekliyoruz
-echo " "
+  #send \"\r\"   (bu kodu alt satirda bi deneyelim tek satır bosluk bırakmak icin bi kod lazım)
+echo "send \"\r\"" >> /etc/php.ini"
 echo "[ioncube]" >> /etc/php.ini"
 echo "zend_extension=/usr/local/ioncube/ioncube_loader_lin_7.3.so" >> /etc/php.ini"
 echo "zend_extension_ts=/usr/local/ioncube/ioncube_loader_lin_7.3_ts.so" >> /etc/php.ini"
